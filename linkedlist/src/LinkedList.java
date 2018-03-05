@@ -78,4 +78,11 @@ public class   LinkedList {
            }   
         }      
     }
+    public void Tostring(){
+        Nodo pointer = head; 
+        while(pointer.siguiente != null){
+            System.out.print(pointer.data);
+            pointer = pointer.siguiente;
+        }
+    }
 }
